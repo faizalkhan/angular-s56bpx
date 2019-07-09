@@ -9,7 +9,7 @@ import { CartService } from '../cart.service';
 })
 export class CartComponent implements OnInit {
    items ;
-  constructor( private cartService : CartService) {
+   constructor( private cartService : CartService) {
     this.items = this.cartService.getItems(); 
    }
 
