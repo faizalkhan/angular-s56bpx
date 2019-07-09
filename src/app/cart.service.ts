@@ -6,8 +6,7 @@ import { Injectable } from '@angular/core';
 export class CartService {
 
  items =[];
-
-
+ 
  addtocart(product)
  {
    this.items.push(product);
@@ -15,7 +14,7 @@ export class CartService {
  getItems() {
     return this.items;
   }
-  
+
 clearItem()
 {
   this.items =[];
